@@ -1,0 +1,28 @@
+Se o projeto ainda não estiver no computador:
+git clone <link do repositorio>
+
+Realizar o commit:
+git add .
+git commit -m "Mensagem explicativa"
+
+Listar histórico de commits:
+git log --oneline
+
+Salvar projeto atualizado no seu Github (push)
+git push
+
+
+*SOS FIZ BESTEIRA*
+Desfazer o que foi feito no último commit:
+git clean -df
+git checkout --
+
+Remover o ultimo commit *mantendo oq foi alterado*:
+git reset --soft HEAD~1
+
+Remover o ultimo commit *excluindo oq foi alterado tbm*:
+git reset --hard HEAD~1
+
+Apagar o ultimo commit no github:
+git push -f origin HEAD^:master
+
